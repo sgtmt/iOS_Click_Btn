@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Repro
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        Repro.setup("d8496e11-5c28-400a-b8ce-040055179e40")
+        Repro.startRecording()
         return true
     }
 

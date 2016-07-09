@@ -12,6 +12,13 @@
 		079E394C1D2EB91D00D16746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079E394A1D2EB91D00D16746 /* Main.storyboard */; };
 		079E394E1D2EB91D00D16746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079E394D1D2EB91D00D16746 /* Assets.xcassets */; };
 		079E39511D2EB91D00D16746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079E394F1D2EB91D00D16746 /* LaunchScreen.storyboard */; };
+		079E39591D2EBD0300D16746 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079E39581D2EBD0300D16746 /* AVFoundation.framework */; };
+		079E395B1D2EBD1300D16746 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079E395A1D2EBD1300D16746 /* CoreMedia.framework */; };
+		079E395D1D2EBD2800D16746 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079E395C1D2EBD2800D16746 /* CoreTelephony.framework */; };
+		079E395F1D2EBD3B00D16746 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079E395E1D2EBD3B00D16746 /* MobileCoreServices.framework */; };
+		079E39611D2EBD5000D16746 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079E39601D2EBD4F00D16746 /* Security.framework */; };
+		079E39631D2EBD5E00D16746 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079E39621D2EBD5E00D16746 /* SystemConfiguration.framework */; };
+		1DEBFC9FE1D4DCFF822330C5 /* libPods-iOS_Click_btn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DAD9EAE6EDF880334240A9 /* libPods-iOS_Click_btn.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,15 @@
 		079E394D1D2EB91D00D16746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		079E39501D2EB91D00D16746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		079E39521D2EB91D00D16746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		079E39581D2EBD0300D16746 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		079E395A1D2EBD1300D16746 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		079E395C1D2EBD2800D16746 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		079E395E1D2EBD3B00D16746 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		079E39601D2EBD4F00D16746 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		079E39621D2EBD5E00D16746 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		46910263CAEAE7E4858805C1 /* Pods-iOS_Click_btn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Click_btn.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Click_btn/Pods-iOS_Click_btn.release.xcconfig"; sourceTree = "<group>"; };
+		8E8090AB4C5F1607A75E117F /* Pods-iOS_Click_btn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Click_btn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Click_btn/Pods-iOS_Click_btn.debug.xcconfig"; sourceTree = "<group>"; };
+		D6DAD9EAE6EDF880334240A9 /* libPods-iOS_Click_btn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_Click_btn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079E39631D2EBD5E00D16746 /* SystemConfiguration.framework in Frameworks */,
+				079E39611D2EBD5000D16746 /* Security.framework in Frameworks */,
+				079E395F1D2EBD3B00D16746 /* MobileCoreServices.framework in Frameworks */,
+				079E395D1D2EBD2800D16746 /* CoreTelephony.framework in Frameworks */,
+				079E395B1D2EBD1300D16746 /* CoreMedia.framework in Frameworks */,
+				079E39591D2EBD0300D16746 /* AVFoundation.framework in Frameworks */,
+				1DEBFC9FE1D4DCFF822330C5 /* libPods-iOS_Click_btn.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +63,8 @@
 			children = (
 				079E39451D2EB91C00D16746 /* iOS_Click_btn */,
 				079E39441D2EB91B00D16746 /* Products */,
+				7CB185204386C4DADC699487 /* Pods */,
+				274D07B32C5FF39E209FF171 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +89,29 @@
 			path = iOS_Click_btn;
 			sourceTree = "<group>";
 		};
+		274D07B32C5FF39E209FF171 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				079E39621D2EBD5E00D16746 /* SystemConfiguration.framework */,
+				079E39601D2EBD4F00D16746 /* Security.framework */,
+				079E395E1D2EBD3B00D16746 /* MobileCoreServices.framework */,
+				079E395C1D2EBD2800D16746 /* CoreTelephony.framework */,
+				079E395A1D2EBD1300D16746 /* CoreMedia.framework */,
+				079E39581D2EBD0300D16746 /* AVFoundation.framework */,
+				D6DAD9EAE6EDF880334240A9 /* libPods-iOS_Click_btn.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CB185204386C4DADC699487 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E8090AB4C5F1607A75E117F /* Pods-iOS_Click_btn.debug.xcconfig */,
+				46910263CAEAE7E4858805C1 /* Pods-iOS_Click_btn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 079E39551D2EB91D00D16746 /* Build configuration list for PBXNativeTarget "iOS_Click_btn" */;
 			buildPhases = (
+				C51B30F4547BC6F7AEAC3DBD /* Check Pods Manifest.lock */,
 				079E393F1D2EB91B00D16746 /* Sources */,
 				079E39401D2EB91B00D16746 /* Frameworks */,
 				079E39411D2EB91B00D16746 /* Resources */,
+				3FD5735DE657A6931995D6AE /* Embed Pods Frameworks */,
+				02A68689E2FD5C50241EEBAA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +180,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02A68689E2FD5C50241EEBAA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS_Click_btn/Pods-iOS_Click_btn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FD5735DE657A6931995D6AE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS_Click_btn/Pods-iOS_Click_btn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C51B30F4547BC6F7AEAC3DBD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		079E393F1D2EB91B00D16746 /* Sources */ = {
@@ -247,6 +346,7 @@
 		};
 		079E39561D2EB91D00D16746 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E8090AB4C5F1607A75E117F /* Pods-iOS_Click_btn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOS_Click_btn/Info.plist;
@@ -258,6 +358,7 @@
 		};
 		079E39571D2EB91D00D16746 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46910263CAEAE7E4858805C1 /* Pods-iOS_Click_btn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOS_Click_btn/Info.plist;
@@ -286,6 +387,7 @@
 				079E39571D2EB91D00D16746 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

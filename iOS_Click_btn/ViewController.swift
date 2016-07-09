@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Repro
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -15,6 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBAction func btn_click(sender: AnyObject) {
+        Repro.startRecording()
+        Repro.track("Finished tutrial", properties:nil)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
